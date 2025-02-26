@@ -12,9 +12,8 @@ from sklearn.metrics import recall_score
 from sklearn.model_selection import StratifiedKFold, KFold, GridSearchCV
 from sklearn.ensemble import RandomForestClassifier
 
-
-import consts
-import utils
+from helper import consts
+from helper import utils
 
 def tune_hyperparams_rf(X, y):
     space = {

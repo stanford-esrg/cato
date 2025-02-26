@@ -1,0 +1,3 @@
+[submodule "retina"]
+	path = retina
+	url = git@github.com:thegwan/retina-cato.git

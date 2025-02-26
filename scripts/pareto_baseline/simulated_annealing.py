@@ -7,11 +7,11 @@ import datetime
 import random
 import math
 
-import utils
-import consts
-import measure_compute
-import measure_inference
-import pareto
+from helper import utils
+from helper import consts
+from helper import pareto
+from measure import measure_compute
+from measure import measure_inference
 
 def initial_point(candidate_features, max_pkt_depth, rs):
     """

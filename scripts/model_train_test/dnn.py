@@ -12,8 +12,7 @@ from keras.optimizers import Adam
 from keras.callbacks import EarlyStopping
 from keras.regularizers import l2
 
-import utils
-
+from helper import utils
 
 def root_mean_squared_error(y_true, y_pred):
     return np.sqrt(mean_squared_error(y_true, y_pred))

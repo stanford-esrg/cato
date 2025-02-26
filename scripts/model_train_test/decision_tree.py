@@ -13,8 +13,8 @@ from sklearn.model_selection import StratifiedKFold, KFold, GridSearchCV
 from sklearn.tree import DecisionTreeClassifier
 
 
-import consts
-import utils
+from helper import consts
+from helper import utils
 
 def tune_hyperparams_dt(X, y):
     space = {

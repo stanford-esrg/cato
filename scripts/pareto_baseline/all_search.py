@@ -5,10 +5,10 @@ import time
 import datetime
 import sys
 
-import utils
-import consts
-import measure_compute
-import measure_inference
+from helper import utils
+from helper import consts
+from measure import measure_compute
+from measure import measure_inference
 
 
 def as_run(candidate_features, max_pkt_depth, num_iter, experiment_dir=""):

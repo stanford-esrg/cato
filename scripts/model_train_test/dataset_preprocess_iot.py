@@ -9,9 +9,9 @@ import time
 
 from sklearn.model_selection import train_test_split
 
-import consts
-import utils
-import retina
+from helper import consts
+from helper import utils
+from measure import retina
 
 def convert_raw_dataset(dataset_dir, pkt_depth="all"):
     """

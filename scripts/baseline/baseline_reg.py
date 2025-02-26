@@ -3,11 +3,11 @@ import json
 import time
 import datetime
 
-import utils
-import consts
-import feature_selection
-import measure_regression
-import measure_latency
+from helper import utils
+from helper import consts
+from helper import feature_selection
+from measure import measure_regression
+from measure import measure_latency
 
 def run_baseline_all():
     res = {}

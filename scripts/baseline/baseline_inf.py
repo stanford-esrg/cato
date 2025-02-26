@@ -3,13 +3,13 @@ import json
 import time
 import datetime
 
-import utils
-import consts
-import feature_selection
-import measure_compute
-import measure_inference
-import measure_throughput
-import measure_latency
+from helper import utils
+from helper import consts
+from helper import feature_selection
+from measure import measure_compute
+from measure import measure_inference
+from measure import measure_throughput
+from measure import measure_latency
 
 def run_baseline_all():
     res = {}

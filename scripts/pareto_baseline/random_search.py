@@ -6,10 +6,10 @@ import datetime
 import random
 import sys
 
-import utils
-import consts
-import measure_compute
-import measure_inference
+from helper import utils
+from helper import consts
+from measure import measure_compute
+from measure import measure_inference
 
 
 
