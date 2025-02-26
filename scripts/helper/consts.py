@@ -113,12 +113,12 @@ tcp_counters = [
 ]
 
 
-dataset_dir = "/mnt/netml/datasets/video_dnn_2"
-results_dir = "/mnt/netml/results/video_dnn_2"
-syscost_dir = "/mnt/netml/syscosts/video_dnn_2"
-retina_dir = "/home/gerryw/retina"
-rust_train_dir = "/home/gerryw/netml/scripts"
-model_type = "dnn"
-use_case = "startup"
+dataset_dir = "/path/to/dataset/dir"
+results_dir = "/path/to/results/dir"
+syscost_dir = "/path/to/syscost/dir"
+retina_dir = "/path/to/retina"
+rust_train_dir = "/path/to/rust_train_dir"
+model_type = "dt" # or rf or dnn
+use_case = "iot"  # or app or startup
 
 
